@@ -130,6 +130,7 @@ function App() {
 
     return (
         <div className="App">
+          <h1> make spelling drag word</h1>
             <button onClick={startGame} style={{ display: gameActive ? 'none' : 'inline-block' }}>Start Game</button>
             <button onClick={() => window.location.reload()} style={{ display: gameActive ? 'inline-block' : 'none' }}>Restart Game</button>
             <button onClick={() => endGame('Game exited.')} style={{ display: gameActive ? 'inline-block' : 'none' }}>Exit Game</button>
