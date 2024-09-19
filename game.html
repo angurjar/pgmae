@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Word Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <button id="start-btn">Start Game</button>
+    <button id="restart-btn" style="display: none;">Restart Game</button>
+    <button id="exit-btn" style="display: none;">Exit Game</button>
+    <div id="letter-boxes"></div>
+    <div id="input-letters">
+        <h1>Make spelling drag the letter here</h1>
+        <div class="input-row">
+            <div id="input-3-1" class="input-box" data-length="3"></div>
+            <div id="input-3-2" class="input-box" data-length="3"></div>
+            <div id="input-3-3" class="input-box" data-length="3"></div>
+        </div>
+        <div class="input-row">
+            <div id="input-4-1" class="input-box" data-length="4"></div>
+            <div id="input-4-2" class="input-box" data-length="4"></div>
+            <div id="input-4-3" class="input-box" data-length="4"></div>
+            <div id="input-4-4" class="input-box" data-length="4"></div>
+        </div>
+        <div class="input-row">
+            <div id="input-5-1" class="input-box" data-length="5"></div>
+            <div id="input-5-2" class="input-box" data-length="5"></div>
+            <div id="input-5-3" class="input-box" data-length="5"></div>
+            <div id="input-5-4" class="input-box" data-length="5"></div>
+            <div id="input-5-5" class="input-box" data-length="5"></div>
+        </div>
+        <div class="input-row">
+            <div id="input-6-1" class="input-box" data-length="6"></div>
+            <div id="input-6-2" class="input-box" data-length="6"></div>
+            <div id="input-6-3" class="input-box" data-length="6"></div>
+            <div id="input-6-4" class="input-box" data-length="6"></div>
+            <div id="input-6-5" class="input-box" data-length="6"></div>
+            <div id="input-6-6" class="input-box" data-length="6"></div>
+        </div>
+    </div>
+    <div id="time">120</div>
+    <div id="message"></div>
+    <script src="gscript.js"></script>
+</body>
+</html>
